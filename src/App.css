@@ -1,0 +1,114 @@
+.App {
+
+  height: 90vh;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+ 
+
+}
+.App-form{
+  width: 300px;
+  height: 150px;
+  background-color:rgba(53, 73,94,.5) ;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-style: italic;
+  border-radius: 10px
+}
+.App-form2{
+  width: 1000px;
+  height: 150px;
+  background-color:rgba(53, 73,94,.5) ;
+  margin-left: 360px;
+  margin-top: -150px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-style: italic;
+  border-radius: 10px
+}
+.App-form3{
+  width: 1000px;
+  height: 150px;
+  background-color:rgba(53, 73,94,.5) ;
+  margin-left: 360px;
+  margin-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-style: italic;
+  border-radius: 10px
+}
+button{
+  height: 30px  ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+  background-color: rgba(24, 146, 130, 0.986);
+  border-radius: 5px;
+ 
+}
+
+input[type="text"],input[type="password"]{
+  margin-top: 10px; 
+}
+h2{
+  margin-top: 30px;
+  text-decoration: underline;
+}
+h1{
+  margin-left: 360px;
+}
+
+.boxed {
+  background-color:gray;
+  float: center;
+  margin-left: 20%;
+  margin-top: 2%;
+  width:50%;
+  height:8%;
+  border-radius: 10px;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 10px;
+  text-decoration: underline;
+  
+ 
+} 
+
+
+h4{
+  float:right;
+  margin-right:34%;
+
+}
+.tbNavigate{
+  background-color: gray; 
+  border-collapse: collapse;
+  text-align:left;
+  height:25%;
+  margin-left: 5%;
+  color: white;
+  font-size: 20px;
+  border: 10px solid gray;
+
+}
+.tbView{
+
+  border-collapse: collapse;
+  border: 1px solid gray;
+  width:600px;
+  text-align:center;
+}
+
